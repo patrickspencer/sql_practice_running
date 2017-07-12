@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS Running;
-CREATE DATABASE Running;
+DROP DATABASE IF EXISTS runners;
+CREATE DATABASE runners;
 
 -- Connect to running database
-\c running;
+\c runners;
 
 CREATE TABLE Runner(
     RunnerId INT,
