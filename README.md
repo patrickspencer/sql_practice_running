@@ -1,7 +1,7 @@
 # Superheros SQL Databases and Problems
 
-These are PostgreSQL databases and practice problems based on super
-heros! This was taken from a talk given by Courtney Epstein.
+These are PostgreSQL databases and practice problems based on
+superheros! This was taken from a talk given by Courtney Epstein.
 
 There are two databases: one about superheros in running races and
 another just about superheros in general.
