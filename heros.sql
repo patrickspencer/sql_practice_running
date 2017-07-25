@@ -4,6 +4,9 @@ CREATE DATABASE heros;
 -- Connect to Heros database
 \c heros;
 
+-- delete everything above this comment if you
+-- copy and paste the contents of this file into
+-- sqlfiddle
 CREATE TABLE Status(
     ID INT,
     PersonalID INT,

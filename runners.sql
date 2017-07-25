@@ -4,6 +4,9 @@ CREATE DATABASE runners;
 -- Connect to running database
 \c runners;
 
+-- delete everything above this comment if you
+-- copy and paste the contents of this file into
+-- sqlfiddle
 CREATE TABLE Runner(
     RunnerId INT,
     FirstName VARCHAR(200),
