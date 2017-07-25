@@ -25,7 +25,7 @@ The tables along with their first rows are as follows:
 
 #### Zip
 
-| Zip1  | Zip1  | Distance |
+| Zip1  | Zip2  | Distance |
 | ----- | ----- | -------- |
 | 10012 | 11381 |    13    |
 
@@ -37,9 +37,9 @@ The tables along with their first rows are as follows:
 
 ### Results
 
-| RaceId | RaceZip | Time |
-| ------ | ------- | ---- |
-|   1    |    1    |  30  |
+| RaceId | RunnerId | Time |
+| ------ | -------- | ---- |
+|   1    |     1    |  30  |
 
 ### Questions
 
