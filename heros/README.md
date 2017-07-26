@@ -6,10 +6,6 @@ superheros! This was taken from a talk given by Courtney Epstein.
 There are two databases: one about superheros in running races and
 another just about superheros in general.
 
-Run `psql -f db_name.sql` in the command line, where `db_name` is either `runners` or `heros`, to create the databases.
-
-Pull requests are welcome!
-
 ## Runners DB
 
 This database is about superheros who run and their performance in races.
