@@ -56,4 +56,3 @@ INSERT INTO Type_REF VALUES (2, 'Villian', 0);
 INSERT INTO Type_REF VALUES (3, 'Sidekick', 1);
 INSERT INTO Type_REF VALUES (4, 'Crony', 0);
 INSERT INTO Type_REF VALUES (5, 'Civilian', null);
-
