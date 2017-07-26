@@ -23,7 +23,9 @@ Matrix 2:
 | 8  | 9 |
 ```
 
-and you have an sql table that looks like this:
+You want to find ```matrix 1 * matrix 2``` using sql.
+
+The table the represents both matrices looks like this:
 
 | row | col | matrixID | value |
 |-----|-----|----------|-------|
@@ -56,4 +58,4 @@ This table represents the matrix
 | 12 | 59 |
 ```
 
-which is the product of the matrices 1 and 2 above.
+which is the product of multiplying matrix 1 above on the right by matrix 2.
