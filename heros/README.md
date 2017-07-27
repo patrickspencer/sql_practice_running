@@ -14,26 +14,27 @@ This database is about superheros who run and their performance in races.
 
 The tables along with their first rows are as follows:
 
-#### Runner
-| RunnerId | FirstName | LastName | HomeZip |
+#### runners
+
+| runnerId | firstName | lastName | homeZip |
 | -------- | --------- | -------- | ------- |
 |     1    |   Barry   |   Allen  |  10012  |
 
-#### Zip
+#### zips
 
-| Zip1  | Zip2  | Distance |
+| zip1  | zip2  | distance |
 | ----- | ----- | -------- |
 | 10012 | 11381 |    13    |
 
-#### Race
+#### races
 
-| RaceId | RaceZip |
+| raceId | raceZip |
 | ------ | ------- |
 |   1    |  11381  |
 
-### Results
+### results
 
-| RaceId | RunnerId | Time |
+| raceId | runnerId | time |
 | ------ | -------- | ---- |
 |   1    |     1    |  30  |
 
