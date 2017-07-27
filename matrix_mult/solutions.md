@@ -1,9 +1,11 @@
 # Solution
 
 ```
-select m1.row, m2.col, sum(m1.value*m2.value)
-from matValues m1
-join matValues m2 on m2.row = m1.col
-where m1.matrixID = 1 and m2.matrixID = 2
-group by m1.row, m2.col
+SELECT m1.row, m2.col, sum(m1.value*m2.value)
+FROM matValues m1
+JOIN matValues m2 
+  ON m2.row = m1.col
+WHERE m1.matrixID = 1 
+  AND m2.matrixID = 2
+GROUP BY m1.row, m2.col
 ```
