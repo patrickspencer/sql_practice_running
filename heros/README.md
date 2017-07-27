@@ -49,7 +49,7 @@ The tables along with their first rows are as follows:
 
 ## Heros DB
 
-This database is about superheros superheros in general.
+This database is about superheros in general (and not just those that have super speed).
 
 ### Schema
 
