@@ -34,7 +34,7 @@ INSERT INTO status VALUES (4, 1, 2, to_date('2014-08-20', 'YYYY-MM-DD'), null);
 INSERT INTO status VALUES (5, 2, 1, null,to_date('2014-10-03', 'YYYY-MM-DD'));
 INSERT INTO status VALUES (6, 2, 2, to_date('2014-10-03', 'YYYY-MM-DD'), to_date('2014-10-19', 'YYYY-MM-DD'));
 INSERT INTO status VALUES (7, 2, 1, to_date('2014-10-19', 'YYYY-MM-DD'), null);
-INSERT INTO status VALUES (8, 3, 5, null, to_date('', 'YYYY-MM-DD'));
+INSERT INTO status VALUES (8, 3, 5, null, to_date('2014-02-14', 'YYYY-MM-DD'));
 INSERT INTO status VALUES (9, 3, 1, to_date('2014-02-14', 'YYYY-MM-DD'), null);
 INSERT INTO status VALUES (10, 4, 2, null,to_date('2014-02-14', 'YYYY-MM-DD'));
 INSERT INTO status VALUES (11, 4, 5, to_date('2014-08-20', 'YYYY-MM-DD'), null);
