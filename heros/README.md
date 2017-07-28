@@ -91,4 +91,4 @@ Are the superheros good, bad, neither?
 - Which leaders had at least one follower? Order from highest number of followers to lowest.
 - How many times did people change from good to evil (or vice versa)?
 - Do you get more promotions (sidekick -> hero vs. crony -> villain ) on the good side or the bad side?
-- Which happens more often? Civilians going to the good or the bad side? (Don’t count retirement).
+- Which happens more often: civilians going to the good or the bad side? (Don’t count retirement).
