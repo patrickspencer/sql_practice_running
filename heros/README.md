@@ -55,27 +55,27 @@ This database is about superheros in general (and not just those that have super
 
 The tables along with their first rows are as follows:
 
-#### Status
+#### status
 
 The status of each superhero.
 
-| ID | PersonalID | TypeID | FromDate | ToDate |
+| id | personalId | typeId | fromDate | toDate |
 | -------- | --------- | -------- | ------- | ------- |
 | 2 | 1 | 3 | 2014-01-12 | 2014-03-15 |
 
-#### Connections
+#### connections
 
 Who is the leader and who is the follower in superhero pairs.
 
-| LeaderID  | FollowerID |
+| leaderID  | followerID |
 | ----- | ----- |
 | 2 | 1 |
 
-#### Type_REF
+#### type_ref
 
 Are the superheros good, bad, neither?
 
-| TypeID | TypeName | IsGood |
+| typeId | typeName | isGood |
 | ------ | ------- | ------- |
 |   1    |  Hero  | 1 |
 |   2    |  Villain  | 0 |
