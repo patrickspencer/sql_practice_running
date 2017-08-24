@@ -2,7 +2,7 @@
 
 ## How far does each runner have to travel to compete in each race?
 
-```
+```sql
 SELECT r.runnerId, a.raceId, z.distance
 FROM runners r
 CROSS JOIN races a
@@ -13,7 +13,7 @@ INNER JOIN zips z
 
 or
 
-```
+```sql
 SELECT ru.runnerId, ra.raceId, z.distance
 FROM races ra
 LEFT JOIN zips z
@@ -24,7 +24,7 @@ LEFT JOIN runners ru
 
 ## Find each runner's personal best time
 
-```
+```sql
 SELECT r.RunnerId, MIN(a.Time) AS BestTime
 FROM Runner r
 LEFT JOIN Results e
@@ -34,7 +34,7 @@ GROUP BY r.RunnerId
 
 ## For each runner, determine how they placed in each race?
 
-```
+```sql
 SELECT r1.raceid, r1.runnerid, COUNT(r1.time) AS rank
 FROM results r1
 JOIN results r2
@@ -46,7 +46,7 @@ ORDER BY r1.raceid, rank
 
 ##  Who won each race?
 
-```
+```sql
 SELECT r.raceId, re.runnerId
 FROM (
   SELECT raceid, MIN(time) as FastestTime
@@ -59,7 +59,7 @@ LEFT JOIN results re
 
 ## Find the list of all runners that ran in each race, including runners who have yet to compete and races that have no participants
 
-```
+```sql
 SELECT r.runnerId, a.raceId
 FROM runners r
 LEFT JOIN results e

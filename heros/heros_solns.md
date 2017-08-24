@@ -5,7 +5,7 @@ Pull requests welcome!
 
 ## How many superheros are there?
 
-```
+```sql
 SELECT COUNT(DISTINCT personalid)
 FROM status
 ```
@@ -14,13 +14,13 @@ You may think you can run but this returns the count of *all* the rows and not j
 
 ## How many of each type are there currently? Include whether they are good or bad.
 
-```
+```sql
 SELECT * FROM type_ref
 ```
 
 ## Compare the numbers at the end of the year to the beginning of the year. (You can assume beginning of the year has FromDate = NULL and the end of the year as ToDate = NULL)
 
-```
+```sql
 SELECT 
     sum(case when fromdate is null then 1 else 0 end) members_beginning_year,
     sum(case when todate is null then 1 else 0 end) members_end_of_year
@@ -29,7 +29,7 @@ FROM status
 
 ## Which leaders had at least one follower? Order from highest number of followers to lowest.
 
-```
+```sql
 SELECT leaderid, COUNT(followerid) 
 FROM connections
 GROUP BY leaderid

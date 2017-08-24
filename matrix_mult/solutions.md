@@ -1,6 +1,6 @@
 # Solution
 
-```
+```sql
 SELECT m1.row, m2.col, sum(m1.value*m2.value)
 FROM matValues m1
 JOIN matValues m2 
