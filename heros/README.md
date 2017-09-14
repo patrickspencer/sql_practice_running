@@ -53,36 +53,60 @@ This database is about superheros in general (and not just those that have super
 
 ### Schema
 
-The tables along with their first rows are as follows:
+The tables are as follows:
 
 #### status
 
-The status of each superhero.
+The status of each superhero. The following is the full table:
 
 | id | personalId | typeId | fromDate | toDate |
 | -------- | --------- | -------- | ------- | ------- |
 | 2 | 1 | 3 | 2014-01-12 | 2014-03-15 |
+| 3 | 1 | 4 | 2014-03-15 | 2014-08-20 |
+| 4 | 1 | 2 | 2014-08-20 |  |
+| 5 | 2 | 1 |  | 2014-10-03|
+| 6 | 2 | 2 | 2014-10-03 | 2014-10-19 |
+| 7 | 2 | 1 | 2014-10-19 |  |
+| 8 | 3 | 5 |  | 2014-02-14 |
+| 9 | 3 | 1 | 2014-02-14 |  |
+| 10 | 4 | 2 |  | 2014-08-20 |
+| 11 | 4 | 5 | 2014-08-20 |  |
+| 12 | 5 | 4 |  | |
+| 13 | 6 | 3 |  | 2014-01-13 |
+| 14 | 6 | 1 | 2014-01-13 |  |
 
 #### connections
 
-Who is the leader and who is the follower in superhero pairs.
+Who is the leader and who is the follower in superhero pairs. This is
+the full table:
 
 | leaderID  | followerID |
 | ----- | ----- |
 | 2 | 1 |
+| 4 | 1 |
+| 6 | 8 |
+| 9 | 6 |
+| 10 | 11 |
+| 9 | 6 |
+| 10 | 12 |
+| 10 | 13 |
+
 
 #### type_ref
 
-Are the superheros good, bad, neither?
+Are the superheros good, bad, neither? This is the full table:
 
 | typeId | typeName | isGood |
 | ------ | ------- | ------- |
 |   1    |  Hero  | 1 |
 |   2    |  Villain  | 0 |
+|   3    |  Sidekick  | 1 |
+|   4    |  Crony  | 0 |
+|   5    |  Civilian  |  |
 
 ### Questions
 
-- How many superheros are there?
+- How many superheros (good, bad, neither) are there?
 - How many of each type are there currently? Include whether they are
   good or bad.
 - Compare the numbers at the end of the year to the beginning of the

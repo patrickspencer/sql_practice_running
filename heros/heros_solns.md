@@ -1,9 +1,9 @@
 # Solutions to 'Heros' problems
 
-There are currently no solutions to these problems :(  
+Some of these problems don't have solutions :(  
 Pull requests welcome!
 
-## How many superheros are there?
+## How many superheros (good, bad, neither) are there?
 
 ```sql
 SELECT COUNT(DISTINCT personalid)
