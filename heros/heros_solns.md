@@ -3,7 +3,11 @@
 Some of these problems don't have solutions :(  
 Pull requests welcome!
 
+<<<<<<< HEAD
 ## How many superheros (good, bad, neither) are there?
+=======
+## How many superheros (good, evil, neutral) are there?
+>>>>>>> 2b9bef334e8c18d28c8f52da975f9fdc4d3adab6
 
 ```sql
 SELECT COUNT(DISTINCT personalid)

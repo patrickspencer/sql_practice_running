@@ -57,7 +57,12 @@ The tables are as follows:
 
 #### status
 
+<<<<<<< HEAD
 The status of each superhero. The following is the full table:
+=======
+The status of each superhero. The following are just the first few rows
+of the table:
+>>>>>>> 2b9bef334e8c18d28c8f52da975f9fdc4d3adab6
 
 | id | personalId | typeId | fromDate | toDate |
 | -------- | --------- | -------- | ------- | ------- |
@@ -67,6 +72,7 @@ The status of each superhero. The following is the full table:
 | 5 | 2 | 1 |  | 2014-10-03|
 | 6 | 2 | 2 | 2014-10-03 | 2014-10-19 |
 | 7 | 2 | 1 | 2014-10-19 |  |
+<<<<<<< HEAD
 | 8 | 3 | 5 |  | 2014-02-14 |
 | 9 | 3 | 1 | 2014-02-14 |  |
 | 10 | 4 | 2 |  | 2014-08-20 |
@@ -74,6 +80,9 @@ The status of each superhero. The following is the full table:
 | 12 | 5 | 4 |  | |
 | 13 | 6 | 3 |  | 2014-01-13 |
 | 14 | 6 | 1 | 2014-01-13 |  |
+=======
+| ⋮ | ⋮ | ⋮ | ⋮ | ⋮ |
+>>>>>>> 2b9bef334e8c18d28c8f52da975f9fdc4d3adab6
 
 #### connections
 
@@ -106,7 +115,11 @@ Are the superheros good, bad, neither? This is the full table:
 
 ### Questions
 
+<<<<<<< HEAD
 - How many superheros (good, bad, neither) are there?
+=======
+- How many superheros (good, evil, neutral) are there?
+>>>>>>> 2b9bef334e8c18d28c8f52da975f9fdc4d3adab6
 - How many of each type are there currently? Include whether they are
   good or bad.
 - Compare the numbers at the end of the year to the beginning of the
