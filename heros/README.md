@@ -57,32 +57,51 @@ The tables along with their first rows are as follows:
 
 #### status
 
-The status of each superhero.
+The status of each superhero. The following are just the first few rows
+of the table:
 
 | id | personalId | typeId | fromDate | toDate |
 | -------- | --------- | -------- | ------- | ------- |
 | 2 | 1 | 3 | 2014-01-12 | 2014-03-15 |
+| 3 | 1 | 4 | 2014-03-15 | 2014-08-20 |
+| 4 | 1 | 2 | 2014-08-20 |  |
+| 5 | 2 | 1 |  | 2014-10-03|
+| 6 | 2 | 2 | 2014-10-03 | 2014-10-19 |
+| 7 | 2 | 1 | 2014-10-19 |  |
+| ⋮ | ⋮ | ⋮ | ⋮ | ⋮ |
 
 #### connections
 
-Who is the leader and who is the follower in superhero pairs.
+Who is the leader and who is the follower in superhero pairs. This is
+the full table:
 
 | leaderID  | followerID |
 | ----- | ----- |
 | 2 | 1 |
+| 4 | 1 |
+| 6 | 8 |
+| 9 | 6 |
+| 10 | 11 |
+| 9 | 6 |
+| 10 | 12 |
+| 10 | 13 |
+
 
 #### type_ref
 
-Are the superheros good, bad, neither?
+Are the superheros good, bad, neither? This is the full table:
 
 | typeId | typeName | isGood |
 | ------ | ------- | ------- |
 |   1    |  Hero  | 1 |
 |   2    |  Villain  | 0 |
+|   3    |  Sidekick  | 1 |
+|   4    |  Crony  | 0 |
+|   5    |  Civilian  |  |
 
 ### Questions
 
-- How many superheros are there?
+- How many superheros (good, evil, neutral) are there?
 - How many of each type are there currently? Include whether they are
   good or bad.
 - Compare the numbers at the end of the year to the beginning of the
